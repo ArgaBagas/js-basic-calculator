@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="layout-component">
+        <div class="container"> 
+            <div class="row screen">
+                <input class="screen-output" value="0" disabled>
+            </div>
+        <div class="row first-row">
+            <input type="button" value="AC" class="clear" id="btn-clear">
+            <input type="button" value="%" class="percent" id="btn-percent">
+            <input type="button" value="÷" class="divide operator" id="btn-divide">
+        </div>
+        <div class="row second-row">
+            <input type="button" value="7" class="numbers">
+            <input type="button" value="8" class="numbers">
+            <input type="button" value="9" class="numbers">
+            <input type="button" value="x" class="multiply operator" id="btn-multiply">
+        </div>
+        <div class="row third-row">
+            <input type="button" value="4" class="numbers">
+            <input type="button" value="5" class="numbers">
+            <input type="button" value="6" class="numbers">
+            <input type="button" value="-" class="minus operator" id="btn-minus">
+        </div>    
+        <div class="row fourth-row">
+            <input type="button" value="1" class="numbers">
+            <input type="button" value="2" class="numbers">
+            <input type="button" value="3" class="numbers">
+            <input type="button" value="+" class="plus operator" id="btn-plus">
+        </div>    
+        <div class="row five-row">
+            <input type="button" value="0" class="numbers-bottom numbers">
+            <input type="button" value="." class="point" id="btn-point">
+            <input type="button" value="=" class="equal" id="btn-equal">
+        </div>    
+    </div>
+    </div>
+    <script src="./functcalc.js"></script>
+</body>
+</html>

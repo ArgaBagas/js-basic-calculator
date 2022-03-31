@@ -1,0 +1,88 @@
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+  }
+
+  .layout-component{
+      max-width: 1366px;
+      height: 100vh;
+  }
+
+  .container{
+      border: outset #686868;
+      width: 400px;
+      padding: 15px;
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+      background-color: #252525;
+  }
+
+  .row{
+      display: flex;
+      clear: both;
+      min-height: 10px;
+  }   
+
+  input[type="button"]{
+      font-size: 20px;
+      height: 50px;
+      border-radius: 0 ;
+      margin: 0.5%;
+  }
+
+
+
+  .screen-output{
+      background-color:#2a2a2a;
+      color: white;
+      width: 100%;
+      font-size: 30px;
+      height: 80px;
+      line-height: 80px;
+      text-align: right;
+      letter-spacing: 1.5px;
+      margin: 15px auto;
+      border:outset #5e5e5e;
+      padding: 0 10px;
+  }
+
+  .numbers, .percent, .divide, .multiply, .minus, .plus, .point, .equal{
+    width:24%;
+  }
+
+  .clear{ 
+      width: 49%;
+      background-color:#e38686 ;
+      border: outset #df8383;
+  }
+
+  .clear:active{
+        border:inset #df8383;
+  }
+
+  .percent, .divide, .multiply, .minus, .plus, .equal{
+    background-color:#e38686 ;
+      border: outset #df8383;
+  }
+
+  .percent:active, .divide:active, .multiply:active, .minus:active, .plus:active, .equal:active{
+    border:inset #df8383;
+  }
+
+  .numbers, .point{
+    background-color: #121212;
+      border: outset #262626;
+  }
+
+  .numbers:active, .numbers-bottom:active, .point:active{
+    border: inset #262626;
+  }
+  
+  .numbers-bottom{
+      width:49%;
+      background-color: #121212;
+      border: outset #262626;
+  }
